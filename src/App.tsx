@@ -116,6 +116,61 @@ export default function App() {
           </div>
         </div>
       </section>
+<section className="mx-auto max-w-6xl px-6 py-16">
+  <p className="mb-3 text-sm uppercase tracking-[0.25em] text-white/50">
+    AI Demo
+  </p>
+
+  <h2 className="text-4xl font-bold">
+    Futbol Performans Analizi (Demo)
+  </h2>
+
+  <p className="mt-4 max-w-3xl text-white/70">
+    Oyuncu hakkında kısa bir yorum yaz, sistem analiz etsin.
+  </p>
+
+  <div className="mt-8 flex flex-col gap-4">
+    <textarea
+      id="inputText"
+      placeholder="Örn: Oyuncu çok koştu ama pasları zayıftı..."
+      className="rounded-xl bg-[#172A45] p-4 text-white outline-none"
+    />
+
+    <button
+      onClick={() => {
+        const text = (document.getElementById("inputText") as HTMLTextAreaElement).value;
+
+        let result = "";
+
+        if (text.includes("koş")) {
+          result += "⚡ Fiziksel performans iyi\n";
+        }
+        if (text.includes("pas")) {
+          result += "🎯 Pas kalitesi geliştirilmeli\n";
+        }
+        if (text.includes("şut")) {
+          result += "🥅 Şut denemeleri mevcut\n";
+        }
+
+        if (!result) {
+          result = "Genel performans dengeli görünüyor.";
+        }
+
+        (document.getElementById("output") as HTMLDivElement).innerText = result;
+      }}
+      className="rounded-xl bg-[#64FFDA] px-6 py-3 font-bold text-black"
+    >
+      Analiz Et
+    </button>
+
+    <div
+      id="output"
+      className="rounded-xl bg-[#172A45] p-4 text-white"
+    >
+      Sonuç burada gözükecek...
+    </div>
+  </div>
+</section>
 
       <section id="iletisim" className="mx-auto max-w-6xl px-6 py-16">
         <div className="rounded-3xl border border-white/10 bg-[#172A45] p-8">
