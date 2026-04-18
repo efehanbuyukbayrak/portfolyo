@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+  --color-navy: #0A192F;
+  --color-charcoal: #172A45;
+  --color-light-gray: #CCD6F6;
+  --color-white: #FFFFFF;
+  --color-accent: #64FFDA;
+  --color-muted: #8892B0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-white);
+  background-color: var(--color-navy);
+}
+
+#root {
+  min-height: 100vh;
+  background-color: var(--color-navy);
+}
