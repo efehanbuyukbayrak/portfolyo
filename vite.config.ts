@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   base: '/portfolyo/',
   build: {
-    outDir: 'docs'
-  }
+    outDir: 'docs',
+    emptyOutDir: true,
+  },
 })
