@@ -154,7 +154,64 @@ export default function App() {
           </div>
         </div>
       </section>
+      <section className="mx-auto max-w-6xl px-6 py-16">
+  <p className="mb-3 text-sm uppercase tracking-[0.25em] text-white/50">
+    Eğitim & Gelişim
+  </p>
 
+  <h2 className="text-4xl font-bold">
+    Devam Eden Eğitimler
+  </h2>
+
+  <p className="mt-4 max-w-3xl text-lg leading-8 text-white/75">
+    Yapay zeka, veri analizi ve dijital pazarlama alanlarında kendimi geliştirmeye devam ediyorum.
+    Bu süreçte farklı kurumlar tarafından sunulan eğitim programlarına aktif olarak katılıyorum.
+  </p>
+
+  <div className="mt-8 grid gap-6 md:grid-cols-2">
+    
+    <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+      <h3 className="text-xl font-semibold">
+        İş’te Yapay Zeka Programı
+      </h3>
+      <p className="mt-3 text-white/75">
+        Yapay zeka temelleri, gerçek dünya problemleri ve proje geliştirme üzerine odaklanıyorum.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+      <h3 className="text-xl font-semibold">
+        NVIDIA AI Eğitimi
+      </h3>
+      <p className="mt-3 text-white/75">
+        Derin öğrenme, veri analizi ve AI uygulamaları üzerine teknik bilgi kazanıyorum. (Devam Ediyor)
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+      <h3 className="text-xl font-semibold">
+        Turkish Airlines Dijital Pazarlama
+      </h3>
+      <p className="mt-3 text-white/75">
+        Dijital pazarlama stratejileri, marka konumlandırma ve veri odaklı büyüme üzerine çalışıyorum. (Devam Ediyor)
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+      <h3 className="text-xl font-semibold">
+        Lemonrocks Veri Analizi Eğitimi
+      </h3>
+      <p className="mt-3 text-white/75">
+        Veri analizi, veri yorumlama ve karar süreçlerinde veri kullanımı üzerine çalışıyorum. (Devam Ediyor)
+      </p>
+    </div>
+
+  </div>
+
+  <p className="mt-8 text-white/60">
+    Bu eğitimler kapsamında final projeleri üzerinde çalışıyorum ve Haziran ayında tamamlanacaktır.
+  </p>
+</section>
       <section className="mx-auto max-w-6xl px-6 py-16">
         <p className="mb-3 text-sm uppercase tracking-[0.25em] text-white/50">Odak Alanlarım</p>
         <h2 className="text-4xl font-bold">Geliştirdiğim Alanlar</h2>
