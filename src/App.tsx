@@ -255,14 +255,14 @@ export default function App() {
             </div>
 
             <a
-              href="www.linkedin.com/in/efehan-büyükbayrak"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 transition hover:text-[#64FFDA]"
-            >
-              <Linkedin className="h-5 w-5 text-[#64FFDA]" />
-              <span>LinkedIn</span>
-            </a>
+  href="https://www.linkedin.com/in/efehan-b%C3%BCy%C3%BCkbayrak"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-3 transition hover:text-[#64FFDA]"
+>
+  <Linkedin className="h-5 w-5 text-[#64FFDA]" />
+  <span>LinkedIn</span>
+</a>
 
             <div className="flex items-center gap-3">
               <Globe className="h-5 w-5 text-[#64FFDA]" />
